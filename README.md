@@ -12,59 +12,53 @@
 
 ## General Information
 
-- A bike-sharing system is a service that makes bikes available to people for short-term, shared use that can be paid for or provided for free. Many bike share programmes enable users to pick up a bike from a "dock," which is typically computer-controlled and where they enter their payment details to have the bike unlocked. Then, you can return this bike to a different system-affiliated dock.
-
-### Problem Statement
-
-- The ongoing Corona pandemic has recently caused a US bike-sharing company, BoomBikes, to experience significant drops in income. In the current market environment, it is extremely difficult for the organisation to remain viable. It has therefore made the conscious decision to develop a business plan that will enable it to increase revenue as soon as the ongoing lockdown ends and the economy returns to a healthy state.
-
-- BoomBikes hopes to understand how people will feel about shared bikes when the current Covid-19-related nationwide quarantine situation ends in this effort. They have planned this in order to differentiate themselves from other service providers and be ready to meet people's requirements when everything improves.
+- Surprise Housing, a US-based housing company, has made the decision to enter the Australian market. The business buys homes for less than their actual value and sells them for more using data analytics. The business has gathered a set of data from Australian home sales for the same objective. The CSV file below contains the data.In order to enter the market, the company is looking at potential properties to purchase. To determine the actual value of the potential properties and whether to invest in them or not, you must construct a regression model using regularisation.
 
 ### Business Goals
-- With the available independent variables, we must model the demand for shared bikes. The management will use it to determine precisely how the needs change with changing features. They can adjust their business approach in accordance with demand levels and client expectations. The model will also help management better grasp the dynamics of demand in a new market.
+- Modeling the cost of homes using the relevant independent variables is required. This model will then be used by the management to understand how exactly the prices fluctuate with the factors. As a result, they can influence the company's strategy and concentrate on areas that will provide large returns. The tool will also help management better understand how prices change in a new market.
 
 ### About the Data
 - The data set used is the train.csv data set. It have 1460 rows and 81 columns. Explaining the columns which has been most used for the analysis and modeling purposes.
 
-1. MSSubClass: Identifies the type of dwelling involved in the sale.
-2. MSZoning: Identifies the general zoning classification of the sale.
-3. LotFrontage: Linear feet of street connected to property
-4. LotArea: Lot size in square feet
-5. Street: Type of road access to property
-6. Alley: Type of alley access to property
-7. LotShape: General shape of property
+MSSubClass: Identifies the type of dwelling involved in the sale.
+MSZoning: Identifies the general zoning classification of the sale.
+LotFrontage: Linear feet of street connected to property
+LotArea: Lot size in square feet
+Street: Type of road access to property
+Alley: Type of alley access to property
+LotShape: General shape of property
        
-8. LandContour: Flatness of the property
-9. LotConfig: Lot configuration
+LandContour: Flatness of the property
+LotConfig: Lot configuration
 	
-10. LandSlope: Slope of property
+LandSlope: Slope of property
 	
-11. Neighborhood: Physical locations within Ames city limits
+Neighborhood: Physical locations within Ames city limits
 			
-12. Condition1: Proximity to various conditions
+Condition1: Proximity to various conditions
 	
-13. Condition2: Proximity to various conditions (if more than one is present)
+Condition2: Proximity to various conditions (if more than one is present)
 	
-14. BldgType: Type of dwelling
+BldgType: Type of dwelling
 	
-15. HouseStyle: Style of dwelling
+HouseStyle: Style of dwelling
 	
-16. OverallCond: Rates the overall condition of the house
+OverallCond: Rates the overall condition of the house
 		
-17. YearBuilt: Original construction date
+YearBuilt: Original construction date
 
-18. YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
 
-19. RoofStyle: Type of roof
+RoofStyle: Type of roof
 		
-20. RoofMatl: Roof material
+RoofMatl: Roof material
 		
-21. Exterior1st: Exterior covering on house
+Exterior1st: Exterior covering on house
 	
-22. Exterior2nd: Exterior covering on house (if more than one material)
+Exterior2nd: Exterior covering on house (if more than one material)
 
 	
-23. MasVnrType: Masonry veneer type
+MasVnrType: Masonry veneer type
 	
 MasVnrArea: Masonry veneer area in square feet
 
