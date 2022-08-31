@@ -17,74 +17,35 @@
 ### Business Goals
 - Modeling the cost of homes using the relevant independent variables is required. This model will then be used by the management to understand how exactly the prices fluctuate with the factors. As a result, they can influence the company's strategy and concentrate on areas that will provide large returns. The tool will also help management better understand how prices change in a new market.
 
+## Flow Diagram
+![Flow chart](https://github.com/ayush10mehta/Advance-Linear-Regression-Assignment/blob/main/Flow.png?raw=true)
+
 ### About the Data
-- The data set used is the train.csv data set. It have 1460 rows and 81 columns. Explaining the columns which has been most used for the analysis and modeling purposes.
+- The data set used is the train.csv data set. It have 1460 rows and 81 columns. A glance to understant what type of columns are used for the analysis and modeling purposes.
 
 MSSubClass: Identifies the type of dwelling involved in the sale.
+
 MSZoning: Identifies the general zoning classification of the sale.
+
 LotFrontage: Linear feet of street connected to property
+
 LotArea: Lot size in square feet
+
 Street: Type of road access to property
+
 Alley: Type of alley access to property
+
 LotShape: General shape of property
        
 LandContour: Flatness of the property
-LotConfig: Lot configuration
-	
-LandSlope: Slope of property
-	
-Neighborhood: Physical locations within Ames city limits
-			
-Condition1: Proximity to various conditions
-	
-Condition2: Proximity to various conditions (if more than one is present)
-	
-BldgType: Type of dwelling
-	
-HouseStyle: Style of dwelling
-	
-OverallCond: Rates the overall condition of the house
-		
+
 YearBuilt: Original construction date
 
 YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
 
-RoofStyle: Type of roof
-		
-RoofMatl: Roof material
-		
-Exterior1st: Exterior covering on house
-	
-Exterior2nd: Exterior covering on house (if more than one material)
-
-	
-MasVnrType: Masonry veneer type
-	
-MasVnrArea: Masonry veneer area in square feet
-
-ExterQual: Evaluates the quality of the material on the exterior 
-		
-ExterCond: Evaluates the present condition of the material on the exterior
-		
-     
-		
-Foundation: Type of foundation
-		
-		
-BsmtQual: Evaluates the height of the basement
-
-		
 BsmtCond: Evaluates the general condition of the basement
+
 BsmtExposure: Refers to walkout or garden level walls
-	
-BsmtFinType1: Rating of basement finished area
-
-BsmtFinSF1: Type 1 finished square feet
-
-BsmtFinType2: Rating of basement finished area (if multiple types)
-
-
-BsmtFinSF2: Type 2 finished square feet
 
 BsmtUnfSF: Unfinished square feet of basement area
 
@@ -110,27 +71,10 @@ GrLivArea: Above grade (ground) living area square feet
 
 BsmtFullBath: Basement full bathrooms
 
-BsmtHalfBath: Basement half bathrooms
-
-FullBath: Full bathrooms above grade
-
-HalfBath: Half baths above grade
-
-Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
-
-Kitchen: Kitchens above grade
-
 KitchenQual: Kitchen quality
 
        	
 TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
-
-Functional: Home functionality (Assume typical unless deductions are warranted)
-
-		
-Fireplaces: Number of fireplaces
-
-FireplaceQu: Fireplace quality
 		
 GarageType: Garage location
 		
@@ -145,30 +89,7 @@ GarageArea: Size of garage in square feet
 GarageQual: Garage quality
 		
 GarageCond: Garage condition
-		
-PavedDrive: Paved driveway
-		
-WoodDeckSF: Wood deck area in square feet
 
-OpenPorchSF: Open porch area in square feet
-
-EnclosedPorch: Enclosed porch area in square feet
-
-3SsnPorch: Three season porch area in square feet
-
-ScreenPorch: Screen porch area in square feet
-
-PoolArea: Pool area in square feet
-
-PoolQC: Pool quality
-		
-		
-Fence: Fence quality
-		
-	
-MiscFeature: Miscellaneous feature not covered in other categories
-		
-     
 MiscVal: $Value of miscellaneous feature
 
 MoSold: Month Sold (MM)
@@ -179,9 +100,6 @@ SaleType: Type of sale
 		
 SaleCondition: Condition of sale
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Flow Diagram
-![Flow chart](https://github.com/ayush10mehta/Advance-Linear-Regression-Assignment/blob/main/Flow.png?raw=true)
 
 ## Conclusions
 1. Optimum value for lasso regression: {'alpha': 62.06206206206207}
